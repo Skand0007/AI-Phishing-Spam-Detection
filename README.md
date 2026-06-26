@@ -1,5 +1,9 @@
 # 🛡️ AI Phishing & Spam Detection
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/Status-Complete-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 A machine learning web application that detects spam and phishing messages 
 using Natural Language Processing and a Naive Bayes classifier.
 
