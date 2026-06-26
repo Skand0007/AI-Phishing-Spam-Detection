@@ -33,18 +33,21 @@ Built with Python, Scikit-learn, and Streamlit.
 ---
 
 ## 🧠 How It Works
+
+```
 User Input (message)
-│
-▼
+        │
+        ▼
 TF-IDF Vectorizer
 (converts text to numbers)
-│
-▼
+        │
+        ▼
 Naive Bayes Classifier
 (trained on 5,500+ SMS messages)
-│
-▼
+        │
+        ▼
 Prediction + Confidence Score + Risk Level
+```
 
 1. The message is converted into numerical features using **TF-IDF**
 2. The **Naive Bayes classifier** predicts spam or ham
@@ -55,18 +58,21 @@ Prediction + Confidence Score + Risk Level
 ---
 
 ## 🗂️ Project Structure
+
+```
 AI-Phishing-Spam-Detection/
 │
-├── app.py # Streamlit user interface
-├── model.py # Machine learning pipeline
-├── utils.py # Helper functions
-├── requirements.txt # Python dependencies
-├── sms.tsv # Training dataset
+├── app.py              # Streamlit user interface
+├── model.py            # Machine learning pipeline
+├── utils.py            # Helper functions
+├── requirements.txt    # Python dependencies
+├── sms.tsv             # Training dataset
 │
-├── screenshots/
-│ ├── home.png
-│ ├── spam_result.png
-│ └── safe_result.png
+└── screenshots/
+    ├── home.png
+    ├── spam_result.png
+    └── safe_result.png
+```
 
 ---
 
@@ -97,49 +103,62 @@ AI-Phishing-Spam-Detection/
 
 ### 1. Clone the repository
 
-git clone https://github.com/YOUR-USERNAME/AI-Phishing-Spam-Detection.git
+```bash
+git clone https://github.com/Skand0007/AI-Phishing-Spam-Detection.git
 cd AI-Phishing-Spam-Detection
+```
 
-2. Install dependencies
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-3. Run the app
+### 3. Run the app
 
+```bash
 streamlit run app.py
-4. Open in browser
+```
 
+### 4. Open in browser
+
+```
 http://localhost:8501
+```
 
-🧪 Test Messages
+---
 
-Spam example:
+## 🧪 Test Messages
 
+**Spam example:**
+```
 WINNER!! You have been selected to receive a £1000 cash prize. 
 Call now to claim your reward. Limited time offer!
+```
 
-
-Ham example:
-
+**Ham example:**
+```
 Hey, are you free this evening? 
 We are meeting at the library at 6pm.
+```
 
+---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
-1. Add support for email header analysis
- 2.Train on a larger and more diverse dataset
- 3.Add URL scanning for phishing links
- 4.Export prediction history as CSV
- 5.Deploy to Streamlit Cloud for public access
- 6.Add multilingual support
+- [ ] Add support for email header analysis
+- [ ] Train on a larger and more diverse dataset
+- [ ] Add URL scanning for phishing links
+- [ ] Export prediction history as CSV
+- [ ] Deploy to Streamlit Cloud for public access
+- [ ] Add multilingual support
 
-👤 Author
-SKAND SHARMA
+---
+
+## 👤 Author
+
+**Skand Sharma**  
 Cybersecurity Student
 
-GitHub • https://github.com/Skand0007?tab=repositories
-
-
-EMAIL: 0007SKAND@GMAIL.COM
-
-
+- 🔗 **GitHub:** [Skand0007](https://github.com/Skand0007)
+- 📧 **Email:** 0007skand@gmail.com
